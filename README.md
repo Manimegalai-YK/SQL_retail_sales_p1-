@@ -39,7 +39,7 @@ CREATE TABLE retail_sales
     total_sale FLOAT
 );
 ```
-### 2. Data Exploration & Cleaning###
+### 2. Data Exploration & Cleaning
 
 - **Record Count**: Determine the total number of records in the dataset.
 - **Customer Count**: Find out how many unique customers are in the dataset.
@@ -127,7 +127,7 @@ The following SQL queries were developed to answer specific business questions:
 
 ###Data Analysis & business key problems and Answers###
 
---1.**write a Sql query to retrieve all columns for sales made on '2022-11-05'**:
+--1.**write a Sql query to retrieve all columns for sales made on '2022-11-05'**;
 
 select *
 from retail_sales
