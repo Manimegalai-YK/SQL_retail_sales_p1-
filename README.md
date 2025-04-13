@@ -127,14 +127,14 @@ The following SQL queries were developed to answer specific business questions:
 
 ###Data Analysis & business key problems and Answers###
 
---1.**write a Sql query to retrieve all columns for sales made on '2022-11-05'**;
-
+1. **write a Sql query to retrieve all columns for sales made on '2022-11-05'**:
+'''sql
 select *
 from retail_sales
 where sale_date = '2022-11-05';
 
-2.**write a sql to retrieve all transactions where category is 'clothing'and the quantiy sold is more then 10 in the month for Nov-2022**:
-
+2. **write a sql to retrieve all transactions where category is 'clothing'and the quantiy sold is more then 10 in the month for Nov-2022**:
+'''sql
 select 
       *
 from retail_sales 
