@@ -109,7 +109,8 @@ where
 	 total_sale is null
 
 
-### 3. data exploration###
+### 3. data exploration
+
 How many sales we have?
 
 SELECT COUNT (*) as Total_sales from retail_sales
@@ -125,7 +126,7 @@ select distinct category from retail_sales
 
 The following SQL queries were developed to answer specific business questions:
 
-###Data Analysis & business key problems and Answers###
+### Data Analysis & business key problems and Answers
 
 1. **write a Sql query to retrieve all columns for sales made on '2022-11-05'**:
 '''sql
